@@ -1,0 +1,47 @@
+.Heading{
+    background-color: bisque;
+}
+.image1{
+   display: grid;
+   margin-top: 5%;
+   margin-bottom: 5%;
+    width: 150px; /* Adjust the width and height as needed */
+    height: 150px;
+    border-radius: 90%; /* This creates a circle */
+    overflow: hidden;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */ 
+    
+}
+.information{
+    display: flex;
+    align-items: center; /* Vertical alignment of content */
+    background-color: #f0f0f0;
+    padding: 20px;
+    flex: 1; /* Take up remaining space in the flex container */
+    padding-right: 20px; /* Add spacing between info and image */
+    
+}
+.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.resume{
+display: inline-flex;
+flex-wrap: wrap;
+background-color: #FFE57D;
+margin-left: 10%;
+justify-content: center;
+align-content: center;
+}
+.Heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+.universal{
+    background-color: antiquewhite;
+}
